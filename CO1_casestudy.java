@@ -105,6 +105,6 @@ public class CO1_casestudy {
         System.out.println("In-order: ");
         inorder(root);
         System.out.println();
-        System.out.println("Height: " + (root.height - 1) + " edges");
+        System.out.println("Height: " + (height(root) - 1) + " edges");
     }
 }
