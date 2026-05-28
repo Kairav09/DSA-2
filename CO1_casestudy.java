@@ -54,10 +54,10 @@ public class CO1_casestudy {
             return new AVLNode(key);
         }
         if (key < node.key) {
-            node.left = insert(node.left, key); 
-        }else if (key > node.key) {
-            node.right = insert(node.right, key); 
-        }else {
+            node.left = insert(node.left, key);
+        } else if (key > node.key) {
+            node.right = insert(node.right, key);
+        } else {
             return node;
         }
 
@@ -91,7 +91,7 @@ public class CO1_casestudy {
             return;
         }
         inorder(n.left);
-        System.out.print(n.key + "(bf=" + balance(n) + ") ");
+        System.out.println(n.key + "(bf=" + balance(n) + ")");
         inorder(n.right);
     }
 
@@ -102,7 +102,7 @@ public class CO1_casestudy {
             root = insert(root, k);
         }
 
-        System.out.print("In-order: ");
+        System.out.println("In-order: ");
         inorder(root);
         System.out.println();
         System.out.println("Height: " + (root.height - 1) + " edges");
