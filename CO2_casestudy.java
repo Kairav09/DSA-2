@@ -5,10 +5,8 @@ public class CO2_casestudy {
 
         long[] tree;   // max value at each node
         long[] lazy;   // pending add for each node
-        int n;
 
         SegTreeLazy(int n) {
-            this.n = n;
             tree = new long[4 * n];
             lazy = new long[4 * n];
         }
