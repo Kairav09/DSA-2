@@ -68,7 +68,6 @@ public class CO2_casestudy {
             sg.updateRange(1, 1, N, i, i, 10);
         }
 
-        System.out.println("Segment tree over 16 zones - supports range add (lazy) + range max");
         System.out.println("Initial: all zones = 1.0");
         System.out.println();
 
