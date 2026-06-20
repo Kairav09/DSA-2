@@ -10,6 +10,7 @@ public class CO5_casestudy {
             this.ball = ball;
         }
 
+        @Override
         public String toString() {
             return "(" + over + "," + ball + ")";
         }
